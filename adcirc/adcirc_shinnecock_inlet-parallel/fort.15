@@ -1,11 +1,11 @@
  Shinnecock Inlet V20051108               ! UPTO 32 CHARACTER ALPHANUMERIC RUN DESCRIPTION
  ADCIRC V45.08                            ! UPTO 24 CHARACTER ALPANUMERIC RUN IDENTIFICATION
- 1                                        ! NFOVER - NONFATAL ERROR OVERRIDE OPTION
+ 1 100 0 100 100                                        ! NFOVER - NONFATAL ERROR OVERRIDE OPTION
  1                                        ! NABOUT - ABREVIATED OUTPUT OPTION PARAMETER
  600                                      ! NSCREEN - OUTPUT TO UNIT 6 PARAMETER
  0                                        ! IHOT - HOT START OPTION PARAMETER
  2                                        ! ICS - COORDINATE SYSTEM OPTION PARAMETER
- 0                                        ! IM - MODEL RUN TYPE: 0=2DDI, 1=3DL(VS), 2=3DL(DSS)
+ 4                                        ! IM - MODEL RUN TYPE: 0=2DDI, 1=3DL(VS), 2=3DL(DSS)
  2                                        ! NOLIBF - NONLINEAR BOTTOM FRICTION OPTION
  2                                        ! NOLIFA - OPTION TO INCLUDE FINITE AMPLITUDE TERMS
  1                                        ! NOLICA - OPTION TO INCLUDE CONVECTIVE ACCELERATION TERMS

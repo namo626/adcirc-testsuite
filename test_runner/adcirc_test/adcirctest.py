@@ -279,7 +279,6 @@ class AdcircTest:
 
                 cmd = [
                     "mpirun",
-                    "--allow-run-as-root",
                     "-np",
                     "{:d}".format(total_cpu),
                     self.__executable,

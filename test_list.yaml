@@ -1,4 +1,12 @@
 tests:
+  adcirc_rain_conservation:
+    path: adcirc/adcirc_rain_conservation
+    model: adcirc
+    parallel: false
+    hotstart: false
+    output_files:
+      - fort.63
+      - maxele.63
   adcirc_alaska_ice-2d:
     path: adcirc/adcirc_alaska_ice-2d
     model: adcirc
@@ -578,7 +586,7 @@ tests:
     path: adcirc/adcirc_shinnecock_inlet-parallel
     model: adcirc
     parallel: true
-    ncpu: 4
+    ncpu: 6
     hotstart: false
     geographic: true
     global: false

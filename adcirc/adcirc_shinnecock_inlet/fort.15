@@ -1,6 +1,6 @@
  Shinnecock Inlet V20051108               ! UPTO 32 CHARACTER ALPHANUMERIC RUN DESCRIPTION
  ADCIRC V45.08                            ! UPTO 24 CHARACTER ALPANUMERIC RUN IDENTIFICATION
- 1                                        ! NFOVER - NONFATAL ERROR OVERRIDE OPTION
+ 1 100 0 100 100                                        ! NFOVER - NONFATAL ERROR OVERRIDE OPTION
  1                                        ! NABOUT - ABREVIATED OUTPUT OPTION PARAMETER
  600                                      ! NSCREEN - OUTPUT TO UNIT 6 PARAMETER
  0                                        ! IHOT - HOT START OPTION PARAMETER
@@ -20,7 +20,7 @@
  3.00                                     ! DT - TIME STEP (IN SECONDS)
  0.00                                     ! STATIM - STARTING SIMULATION TIME IN DAYS
  0.00                                     ! REFTIME - REFERENCE TIME (IN DAYS) FOR NODAL FACTORS AND EQUILIBRIUM ARGS
- 2.0                                      ! RNDAY - TOTAL LENGTH OF SIMULATION (IN DAYS)
+ 2.00                                      ! RNDAY - TOTAL LENGTH OF SIMULATION (IN DAYS)
  2.0                                      ! DRAMP - DURATION OF RAMP FUNCTION (IN DAYS)
  0.35  0.30  0.35                         ! TIME WEIGHTING FACTORS FOR THE GWCE EQUATION
  0.05 12 12 0.02                          ! H0 - MINIMUM CUTOFF DEPTH
