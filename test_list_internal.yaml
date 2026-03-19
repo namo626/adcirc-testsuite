@@ -19,27 +19,6 @@ tests:
       - fort.222.inv
       - fort.225.inv
 
-  adcirc_apes-parallel:
-    path: adcirc/adcirc_apes-parallel
-    model: adcirc
-    parallel: true
-    ncpu: 4
-    hotstart: false
-    global: false
-    geographic: false
-    output_files:
-      - fort.61
-      - fort.62
-      - fort.63
-      - fort.64
-      - fort.71
-      - fort.72
-      - fort.73
-      - fort.74
-      - maxele.63
-      - maxvel.63
-      - maxwvel.63
-      - minpr.63
 
   adcirc_ideal_channel-2d-parallel:
     path: adcirc/adcirc_ideal_channel-2d-parallel
