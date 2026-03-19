@@ -302,8 +302,10 @@ class AdcircTest:
 
             percent = 0
             logger.info(progress_bar)
+            logs = []
             with open(log_file, "w") as log:
                 for line in process.stdout:
+                    logs.append(line)
                     log.write(line)
                     if "TIME STEP" in line and "ITERATIONS" in line:
                         line = line.strip().split()
@@ -331,6 +333,8 @@ class AdcircTest:
             # Check the return code
             if return_code != 0:
                 msg = f"Executable failed with return code: {return_code}"
+                for line in logs:
+                    print(line)
                 raise RuntimeError(msg)
 
             progress_bar.close()
