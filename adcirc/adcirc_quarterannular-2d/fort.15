@@ -1,11 +1,11 @@
  QUARTER ANNULAR TEST V20051108      ! 32 CHARACTER ALPHANUMERIC RUN DESCRIPTION
  ADCIRC V45.07                       ! 24 CHARACTER ALPANUMERIC RUN IDENTIFICATION
- 0 100 0 100 100                                   ! NFOVER - NONFATAL ERROR OVERRIDE OPTION
+ 0                                   ! NFOVER - NONFATAL ERROR OVERRIDE OPTION
  0                                   ! NABOUT - ABREVIATED OUTPUT OPTION PARAMETER
  600                                 ! NSCREEN - UNIT 6 OUTPUT OPTION PARAMETER
  0                                   ! IHOT - HOT START PARAMETER
  1                                   ! ICS - COORDINATE SYSTEM SELECTION PARAMETER
- 4                                   ! IM - MODEL SELECTION PARAMETER 
+ 0                                   ! IM - MODEL SELECTION PARAMETER 
  1                                   ! NOLIBF - BOTTOM FRICTION TERM SELECTION PARAMETER
  1                                   ! NOLIFA - FINITE AMPLITUDE TERM SELECTION PARAMETER
  1                                   ! NOLICA - SPATIAL DERIVATIVE CONVECTIVE SELECTION PARAMETER
