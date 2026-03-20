@@ -34,11 +34,12 @@ tests:
       - maxele.63.nc
       - maxvel.63.nc
 
-  adcirc_quarterannular-2d:
-    path: adcirc/adcirc_quarterannular-2d
+  adcirc_quarterannular-2d-parallel-DG:
+    path: adcirc/adcirc_quarterannular-2d-parallel-DG
     model: adcirc
-    parallel: false
+    parallel: true
     hotstart: false
+    ncpu: 4
     output_files:
       - fort.61
       - fort.62
