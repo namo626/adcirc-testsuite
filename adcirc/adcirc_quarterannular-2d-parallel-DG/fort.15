@@ -60,5 +60,5 @@
  0.0001405257 1.0 0.0                ! HAFREQ(I=1),HAFF(I=1),HAFACE(I=1)
  4.00  5.00  1  0.0                  ! THAS,THAF,NHAINC,FMV - HARMONIC ANALYSIS PARAMETERS         
  1 1 1 1                             ! NHASE,NHASV,NHAGE,NHAGV - CONTROL HARMONIC ANALYSIS AND OUTPUT TO UNITS 51,52,53,54
- 1 1236                               ! NHSTAR,NHSINC - HOT START FILE GENERATION PARAMETERS                  
+ 0 1236                               ! NHSTAR,NHSINC - HOT START FILE GENERATION PARAMETERS                  
  1  0  1.E-10  25                     ! ITITER, ISLDIA, CONVCR, ITMAX - ALGEBRAIC SOLUTION PARAMETERS
