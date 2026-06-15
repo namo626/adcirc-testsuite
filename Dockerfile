@@ -13,6 +13,8 @@ RUN source /opt/spack-environment/activate.sh && \
     pip3 install PyYAML xarray tqdm cartopy netCDF4
 
 
+ENV OMPI_ALLOW_RUN_AS_ROOT=1 
+ENV OMPI_ALLOW_RUN_AS_ROOT_CONFIRM=1 
 WORKDIR /home/adcirc
 ENTRYPOINT [ "/entrypoint.sh" ]
 CMD [ "/bin/bash" ]
