@@ -34,6 +34,19 @@ tests:
       - maxele.63.nc
       - maxvel.63.nc
 
+  adcirc_quarterannular-2d-DG:
+    path: adcirc/adcirc_quarterannular-2d-DG
+    model: adcirc
+    parallel: false
+    hotstart: false
+    output_files:
+      - fort.61
+      - fort.62
+      - fort.63
+      - fort.64
+      - maxele.63
+      - maxvel.63
+
   adcirc_quarterannular-2d-parallel-DG:
     path: adcirc/adcirc_quarterannular-2d-parallel-DG
     model: adcirc

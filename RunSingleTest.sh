@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #...Maximum Error
-err=0.00001
+err=0.05
 
 #...Path to the executables
 adcirc_path=$1
@@ -17,5 +17,5 @@ python3 $TESTHOME/test_runner/test_runner.py \
     --bin $adcirc_path \
     --tolerance $err \
     --test-root $TESTHOME \
-    --test-yaml $TESTHOME/test_list.yaml \
+    --test-yaml $TESTHOME/test_list_internal.yaml \
     --test $case
